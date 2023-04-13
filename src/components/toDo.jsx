@@ -15,6 +15,9 @@ export default function ToDo() {
                 <input className="inputText" type="text" value={title} />
                 <input onClick={handleClick} className="inputSubmit" type="submit" value="" />
             </form>
+            <footer>
+                Julieta Di Cio, 2023.
+            </footer>
         </>
     )
 }
